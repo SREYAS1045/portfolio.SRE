@@ -312,3 +312,19 @@ body
     justify-content: center;
     
 }
+@media only screen and (max-width:600px)
+{
+    body
+    {
+        font-size: medium;
+
+    }
+    #line2
+    {
+        display: none;
+    }
+    html
+    {
+        width: 100%;
+    }
+}

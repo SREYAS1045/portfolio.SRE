@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="port.css">
+    
+    <title>My PORTFOLIO</title>
+</head>
+<body>
+    
+
+<div id="all">
+    <div id="container1" class="qw">
+
+       
+
+
+        <nav id="but">
+        
+            <div id="button">
+                <div id="b"><button type="button" id="home" onclick="home()" class="B"><b>HOME</b></button></div>
+                <div id="b"><button type="button" id="abo" onclick="About()" class="B"><b>ABOUT ME!</b></button></div>
+                <div id="b"><button type="button" id="acad" onclick="aca()" class="B"><b>ACADEMICS</b></button></div>
+                <div id="b"><button type="button" id="pro" onclick="project()" class="B"><b>PROJECTS</b></button></div>
+            </div>
+            
+        
+    </nav>   
+    
+    
+    
+    
+    
+    
+    
+        <div class="container">
+            <div id="line"></div>
+            <div id="name">SREYAS B ANAND</div>
+            <div id="photo1"><img id="photo" src="pho1.png"></div>
+            <div id="section1">Hi Friends..I'm SREYAS B ANAND and welcome to my portfolio website</div>
+        </div>
+    
+    
+    <div id="container2" class="qw">
+    
+        
+        <div id="section2" >
+            <div id="op" style="font-family: cursive;"><h3><u>ABOUT ME</u></h3></div>
+            I am a Btech CSE undergrad and an aspiring engineer and is passionate about technology.I am very passionate about web devolpment and game devolpment.I have some basic knowledge about programming languages like C++,C,Python and i am willing to learn more about these languages.Apart from academics.. i have a huge interest in FOOTBALL and is very much crazy about it. 
+        i am looking forward to devolep my skills in the world of programming through hardwork and determination.  </div>
+    </div>
+        
+    
+    <div id="container3" class="qw">
+    
+       
+       
+        <div id="section3">
+            <div id="po" style="font-family: cursive;"><h3><u>ACADEMICS</u></h3></div><br><br>
+            
+            I am a First year student,studying in Model enginnering college,Thrikkakara, pursuing my degree in COMPUTER SCIENCE AND BUSINESS SYSTEMS.
+            I completed my higher secondary education at EXCEL PUBLIC SCHOOL,MAHE.
+        </div>
+    
+    
+        
+    </div>
+    
+    
+        <div id="line2"></div>
+        <div id="contactDetails" class="hidden">
+            <div id="contact"><h2>Contact Me</h2></div>
+           <Div id="sm"> 
+            <a href="mailto:sreyas1045@gmail.com"><img id="email" src="https://cdn0.iconfinder.com/data/icons/basic-ui-elements-colored/700/08_mail-1024.png"></a>
+            <a href="https://www.instagram.com/sre___y___a___s/"><img id="insta" src="https://static.vecteezy.com/system/resources/previews/017/743/717/non_2x/instagram-icon-logo-free-png.png"></a>
+            <a href="https://twitter.com/sre___y___as___/"><img id="Twit" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-6.png"></a>
+            <a href="https://www.linkedin.com/in/sreyas-b-anand-8113a8298"><img id="link" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG14.png"></a>
+           </Div> 
+        </div>
+    
+    <div id="container4" class="qw">
+    
+    
+        
+    
+    
+    
+    
+            <div id="section4">
+                <DIV id="head"><h3><u>MY PROJECTS</u></h3></DIV>
+                <div id="s4">
+                    
+                       <div id="se">
+                        <Div id="sec4">
+                            I have created a calculator website <br>
+                             which performs basic<br> arthmetic,trigonometric,<br> and logarithmic operations<br>(recommended for desktops and laptops)
+                                </Div>
+                            <div id="cal"><a href="https://github.com/SREYAS1045/calculator12"><img id="log" src=https://icons.iconarchive.com/icons/blackvariant/button-ui-system-apps/1024/Calculator-icon.png id="calc" class="calc"></a>
+                                    </div>
+                        </div>
+                        
+                       </div>
+            </div>
+       </div>
+    
+    
+    </div>
+    
+
+
+
+</div>
+    <script lang="javascript">
+       
+     
+        
+    function home() 
+    {
+        scrollToSection('container1');
+    }
+    function About()
+    {
+        scrollToSection('container2');
+    }
+    function aca() {
+        scrollToSection('container3');
+    }
+    
+
+    function project() {
+        scrollToSection('container4'); 
+    }
+
+    
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        
+        if (section) {
+            window.scrollTo({
+                top: section.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    }
+
+
+
+        
+
+    </script>
+    
+</body>
+</html>

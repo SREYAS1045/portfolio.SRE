@@ -1,3 +1,4 @@
+
 html
 {
     height: 100%;
@@ -312,7 +313,7 @@ body
     justify-content: center;
     
 }
-@media only screen and (max-width:600px)
+@media only screen and (max-width:768px)
 {
     body
     {
@@ -323,19 +324,54 @@ body
     {
         display: none;
     }
-    html
-    {
-        width: 100%;
-    }
-    #button
-    {
-        position: fixed;
-        top: 95%;
+   
+        /* Adjustments for smaller screens */
+    #button {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        #b {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    
+        #section1 {
+            margin-left: 0;
+            text-align: center;
+        }
+        
+    
 
+    #bu {
+        position: static;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        transform: none;
     }
-    .B
-    {
-        border-radius: 50%;
-        border: 1px solid white;
+
+    .calc {
+        margin-left: 0;
     }
+
+    #contact {
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #sm {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    #section2, #section3 {
+        margin-top: 3rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
 }

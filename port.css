@@ -327,4 +327,15 @@ body
     {
         width: 100%;
     }
+    #button
+    {
+        position: fixed;
+        top: 95%;
+
+    }
+    .B
+    {
+        border-radius: 50%;
+        border: 1px solid white;
+    }
 }
